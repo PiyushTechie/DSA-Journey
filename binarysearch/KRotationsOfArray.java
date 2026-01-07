@@ -1,3 +1,4 @@
+package binarysearch;
 public class KRotationsOfArray {
     public int findKRotation(int arr[]) {
         int low = 0;
