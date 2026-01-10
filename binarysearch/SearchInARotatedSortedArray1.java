@@ -19,9 +19,9 @@ public class SearchInARotatedSortedArray1 {
                 }
             }else{
                 if(arr[mid] <= target && target <= arr[high]){
-                    high = mid + 1;
+                    low = mid + 1;
                 }else{
-                    low = mid - 1;
+                    high = mid - 1;
                 }
             }
         }
